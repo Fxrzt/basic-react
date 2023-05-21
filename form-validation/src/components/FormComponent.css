@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background: #fafafa;
+}
+
+.container{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+}
+
+.form{
+    /* 10px is height 40px is width */
+    padding: 10px 40px;
+}
+
+h2{
+    text-align: center;
+    /* Margin */
+    /* One value All four margins are the same. */
+    /* Two values The first value defines the top and bottom margins.
+    The second value defines the left and right margins. */
+    /* Three values	The first value defines the top margin.
+    The second value defines the left and right margins.
+    The third value defines the bottom margin. */
+    /* Four values	The first value defines the top margin.
+    The second value defines the right margin.
+    The third value defines the bottom margin.
+    The fourth value defines the left margin. */
+    /* margin: 0 0 0 20px; */
+}
+
+.form-control{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.form-control label{
+    display: block;
+    /* เพื่อให้บรรทัดนั้นมีอันเดียว */
+    margin-bottom: 5px;
+}
+
+.form-control input{
+    display: block;
+    border-radius: 4px;
+    border: 2px solid #f0f0f0;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.form-control input:focus{
+    outline: none;
+}
+
+.form button{
+    background: #3498db;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+}
